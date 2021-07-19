@@ -20,6 +20,7 @@ git checkout <branch_name>
 git checkout -
 git checkout -p
 git checkout -b <new_branch_name>
+git checkout <file_name>
 ```
 
 ```bash
