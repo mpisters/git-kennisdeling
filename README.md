@@ -54,6 +54,16 @@ git push origin HEAD
 git push origin HEAD -f
 ```
 
+```bash
+git fetch
+```
+
+```bash
+git pull
+git pull origin HEAD
+git pull origin HEAD --rebase
+```
+
 ### showing git history and searching files
 ```bash
 git log
