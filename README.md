@@ -30,6 +30,11 @@ git stash list
 git stash apply <number_stash>
 ```
 
+```bash
+git reset
+git reset --soft origin/<branch_name>
+git reset --hard origin/<branch_name>
+
 ### updating branch
 ```bash
 git rebase <branch_name>
