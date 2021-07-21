@@ -34,8 +34,10 @@ git stash apply <number_stash>
 git reset
 git reset --soft origin/<branch_name>
 git reset --hard origin/<branch_name>
+```
 
 ### updating branch
+
 ```bash
 git rebase <branch_name>
 git rebase -i <branch_name>
@@ -62,6 +64,10 @@ git push origin HEAD -f
 
 ```bash
 git fetch
+```
+
+```bash
+git revert <commit_id>
 ```
 
 ```bash
