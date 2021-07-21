@@ -86,3 +86,14 @@ git reflog
 git grep
 ```
 
+### undo rebase before push
+
+```bash
+git reset --hard origin/<branch_name>
+```
+### undo rebase after push
+```bash
+git reflog
+git reset --hard HEAD@{<number_in_reflog>}
+```
+
